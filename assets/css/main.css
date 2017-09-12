@@ -1,0 +1,91 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #fefefe
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: inherit
+}
+
+p.secondary {
+  font-size: 16.5px;
+  line-height: 28px;
+}
+
+footer {
+  padding: 36px 48px;
+  background-color: #111019;
+}
+
+footer p {
+  margin: 0
+}
+
+.material-icons {
+  vertical-align: middle
+}
+
+.parallax {
+  min-height: 480px;
+  background: transparent;
+}
+
+.dim {
+  background-color: rgba(0,0,0,0.56);
+  height: 100%
+}
+
+.roboto-mono {
+  font-family: 'Roboto Mono', Consolas, monospace !important
+}
+
+.t-white {
+  color: #fafafa
+}
+
+.img-me-cont, .btn-down {
+  overflow: hidden;
+  position: relative;
+  border-radius: 100%;
+}
+
+.img-me {
+  width: 240px;
+  filter: grayscale(0.48);
+  transition: 0.3s all;
+}
+
+.img-me:hover {
+  filter: grayscale(0)
+}
+
+.btn-down-cont {
+  transform: translateY(-150%);
+}
+
+.btn-down {
+  height: 56px;
+}
+
+.btn-down i,
+.btn-down:link i,
+.btn-down:visited i {
+  color: #fafafa;
+  font-size: 56px;
+  transition: 0.1s all;
+}
+
+.btn-down:hover,
+.btn-down:active,
+.btn-down:focus {
+  text-decoration: none;
+}
+
+.btn-down:hover i,
+.btn-down:active i {
+  color: #dadada;
+}

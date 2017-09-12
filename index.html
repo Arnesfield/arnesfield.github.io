@@ -2,32 +2,100 @@
 <html lang="en">
 <head>
 
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-  crossorigin="anonymous"/>
-<link rel="stylesheet" href="vendor/project-my/my.css"/>
+<!--
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjpu" crossorigin="anonymous">
+<link rel="stylesheet" href="https://storage.googleapis.com/materialdesignlite/material.css">
+-->
 
-<link rel="stylesheet" href="assets/css/style.css"/>
+<link rel="stylesheet" href="vendor/fonts/Roboto/roboto.css">
+<link rel="stylesheet" href="vendor/material-icons/material-icons.css">
+<link rel="stylesheet" href="vendor/bootstrap-grid-only/css/bootstrap.min.css">
+<link rel="stylesheet" href="vendor/mdl/material.min.css">
+<link rel="stylesheet" href="vendor/my.css">
+
+<link rel="stylesheet" href="assets/css/main.css">
 
 <title>Jefferson Rylee</title>
 
 </head>
 <body>
 
-<div class="my-center my-middle h-100">
-  <h1 class="my-ls-3 my-lh-1 my-ta-r">jefferson<br/>rylee</h1>
+<!-- parallax -->
+<div class="parallax roboto-mono"
+  style="height: 100%"
+  data-parallax="scroll"
+  data-image-src="assets/images/bg.jpg">
+
+  <div class="dim t-white">
+    
+    <div class="container my-middle my-center" style="height: 100%">
+
+      <div class="my-ta-r">
+        <h1 class="my-lh-1">espiritu<br>jefferson rylee</h1>
+        <hr>
+        <p class="secondary">
+          <i class="material-icons">school</i> feu institute of technology<br>
+          <i class="material-icons">phonelink</i> web and mobile applications development<br>
+          <i class="material-icons">account_circle</i> student<br>
+        </p>
+      </div>
+
+      <div class="img-me-cont my-ml-4 mdl-js-ripple-effect">
+        <span class="mdl-ripple" style="z-index: 1"></span>
+        <img class="img-me" src="assets/images/me.jpg" alt="me">
+      </div>
+
+    </div>
+    
+    <div class="my-center btn-down-cont">
+
+      <a class="btn-down mdl-js-ripple-effect" href="#content">
+        <span class="mdl-ripple" style="z-index: 1"></span>
+        <i class="material-icons">keyboard_arrow_down</i>
+      </a>
+      
+    </div>
+
+  </div>
+
 </div>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-  crossorigin="anonymous"></script>
+
+<!-- content -->
+<div id="content">
+
+</div>
+
+
+<!-- footer -->
+<footer class="roboto-mono t-white">
+
+<div class="container-fluid">
+  <p>copyright &copy; jefferson rylee 2017</p>
+</div>
+
+</footer>
+
+<!--
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://storage.googleapis.com/materialdesignlite/material.min.js"></script>
+-->
+
+<script src="vendor/jquery.min.js"></script>
+<!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
+<script src="vendor/mdl/material.min.js"></script>
+<script src="vendor/parallax.min.js"></script>
+<script src="vendor/inherit.min.js"></script>
+<script src="vendor/smooth-scroll.js"></script>
+
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
