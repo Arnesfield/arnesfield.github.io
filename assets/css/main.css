@@ -7,18 +7,17 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0;
   font-family: inherit
 }
 
 p.secondary {
-  font-size: 16.5px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 32px;
 }
 
 footer {
-  padding: 36px 48px;
-  background-color: #111019;
+  padding: 36px 8px;
+  background-color: #16151E;
 }
 
 footer p {
@@ -26,7 +25,8 @@ footer p {
 }
 
 .material-icons {
-  vertical-align: middle
+  vertical-align: middle;
+  font-size: inherit
 }
 
 .parallax {
@@ -64,7 +64,7 @@ footer p {
 }
 
 .btn-down-cont {
-  transform: translateY(-150%);
+  transform: translateY(-130%);
 }
 
 .btn-down {
@@ -88,4 +88,43 @@ footer p {
 .btn-down:hover i,
 .btn-down:active i {
   color: #dadada;
+}
+
+.ripple-cont {
+  overflow: hidden
+}
+
+#content {
+  padding: 36px 8px;
+}
+
+/* card */
+.card {
+  width: 100%;
+  margin-bottom: 16px
+}
+
+.card-img-cont {
+  width: 100%;
+  height: 320px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-cont .dim {
+  position: relative;
+  background-color: rgba(0,0,0,0.24)
+}
+
+.card-title {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card-title h3 {
+  color: #fff !important;
+  position: absolute;
+  /* top: 180px; */
+  transform: translateY(-8px)
 }
